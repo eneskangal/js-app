@@ -1,0 +1,19 @@
+#slider{    
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#kontrol{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+#kontrol >a{
+    color: black;
+    background-color: aqua;
+    padding: 30px;
+    margin-bottom: 10px;
+    bottom: 20px;
+}
