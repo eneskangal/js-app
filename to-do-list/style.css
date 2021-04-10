@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul{   
+    padding: 0;
+    background-color: #fed132;
+    width: 300px;
+    margin: 20px auto 0 auto;    
+}
