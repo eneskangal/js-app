@@ -1,10 +1,5 @@
-function enes(){
-   document.getElementById("button").addEventListener("mouseover", function(){
-       this.style.position="relative";
-       this.style.left+="30px";
-   })
+function bıgImg(x){   
+   for(i<0; i<5; i++){
+       x.style.
+   }
 }
- 
-setInterval(enes() 
-    
-, 3000);
