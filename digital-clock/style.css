@@ -1,0 +1,50 @@
+body{
+    background-color: #fde132;
+    font-size: 100px;
+    font-weight: bold;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body >div{
+    display: flex;
+    position: relative;
+}
+#saat{
+    height: 130px;
+    width: 130px;
+    border: 2px solid #f7f7f7;
+    position: relative;
+}
+#saat::before{
+    content: "saat";
+    position: absolute;
+    font-size: 20px;
+    bottom: 10px;
+    left: 40px;
+}
+#dakika{
+    height: 130px;
+    width: 130px;
+    border: 2px solid #f7f7f7;    
+}
+#dakika::before{
+    content: "dakika";
+    position: absolute;
+    font-size: 20px;
+    bottom: 110px;
+    left: 180px;
+}
+#saniye{
+    height: 130px;
+    width: 130px;
+    border: 2px solid #f7f7f7;    
+}
+#saniye::before{
+    content: "saniye";
+    position: absolute;
+    font-size: 20px;    
+    bottom: 110px;
+    left: 300px;
+}
