@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Hash Generator</h2>
+    <input type="button" value="hash generator" onclick="enes()">
+    <p id="p""></p>
+    <script src="script.js"></script>
+    <script>
+        function enes(){
+        var hash=["A", "B", "C", "D", "E", "F",0, 1,2,3,4,5,6,7,8,9];        
+        var sayı="";
+     for(i=0; i<6; i++){
+         var rastgele=parseInt(Math.random()*15)
+         sayı+=hash[rastgele];         
+     }
+     document.getElementById("p").innerHTML=sayı;
+    }
+
+      
+      
+
+        
+    </script>
+</body>
+</html>

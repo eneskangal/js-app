@@ -10,6 +10,7 @@ body{
 body >div{
     display: flex;
     position: relative;
+    background-color: #f7f7f7;
 }
 #saat{
     height: 130px;
@@ -33,7 +34,7 @@ body >div{
     content: "dakika";
     position: absolute;
     font-size: 20px;
-    bottom: 110px;
+    bottom: 10px;
     left: 180px;
 }
 #saniye{
@@ -45,6 +46,6 @@ body >div{
     content: "saniye";
     position: absolute;
     font-size: 20px;    
-    bottom: 110px;
+    bottom: 10px;
     left: 300px;
 }
