@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#kutu{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.row{
+    display:flex;
+}
+.block{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+h6{
+    font-size: 40px;
+}
