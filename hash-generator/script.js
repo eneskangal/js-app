@@ -16,4 +16,4 @@ for(i=0; i<input.length; i++){
     sifrelenmis+=sifreli[list.indexOf(input[i])]
     
 }
-alert(sifrelenmis)
+document.write(sifrelenmis)

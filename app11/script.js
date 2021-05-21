@@ -1,2 +1,2 @@
 var liste=["Pazartesi","Salı","Çarşamba","Perşembe","Cuma"];
-alert(liste[4]);
+document.write(liste[4]);

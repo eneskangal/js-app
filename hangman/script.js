@@ -6,8 +6,8 @@ var sayaç=0;
 for(i=0; i<splitLength; i++){
     var li=document.createElement("div");
     li.style.border="2px solid black";
-    li.style.width="25px"
-    li.style.height="30px"
+    li.style.width="50px"
+    li.style.height="50px"
     li.style.display="flex"
     li.style.alignItems="center"
     li.style.justifyContent="center"    
@@ -33,8 +33,7 @@ function enes(x){
     enes2(split.lastIndexOf(x))
     }
     else{
-        sayaç++;
-        alert(sayaç+"hata");   
+        sayaç++;         
         if(sayaç==6){
             alert("cevap"+": "+array[random]);
             location.reload();

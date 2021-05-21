@@ -5,7 +5,7 @@ birlestir.forEach(myFunction);
 
 function myFunction(x){
     if(x%4==0){
-        alert(x);
+        document.write(x+"<br>");
     }
 }
 

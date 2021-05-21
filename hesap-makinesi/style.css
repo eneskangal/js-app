@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type=text]{
+    margin: 5px 0;
+    height: 30px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin: 30px 0;
+}
+h1{
+    margin: 30px 0;
+}

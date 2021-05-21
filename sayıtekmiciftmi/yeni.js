@@ -1,12 +1,12 @@
 var sayı=prompt("sayı giriniz");
 if(sayı==""){
-    alert("SAYI GİR LAN!")
+    document.write("SAYI GİR LAN!")
 }
 else if(sayı%2==0){
-    alert("sayı çift")
+    document.write("sayı çift")
 }
 else{
-    alert("sayı tek")
+    document.write("sayı tek")
 }
 
 

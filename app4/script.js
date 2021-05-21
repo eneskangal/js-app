@@ -21,4 +21,4 @@ function YılınGünü(Ay,Gün,Yıl){
 
 }
  
-alert(YılınGünü(4,13,2021));
+document.write(YılınGünü(4,13,2021));

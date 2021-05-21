@@ -7,4 +7,4 @@ while (true){
     toplam+=sayi;
 }
 
-alert(toplam)
+document.write(toplam)

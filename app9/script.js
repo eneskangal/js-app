@@ -1,3 +1,3 @@
-var meyveler=["Elma","Armut","Portakal"];
+var meyveler=["Elma", "Armut", "Portakal"];
  
-alert("En Sevdiğim Meyveler"+" "+meyveler)
+document.write("En Sevdiğim Meyveler"+" "+meyveler)

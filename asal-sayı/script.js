@@ -6,8 +6,8 @@ for (i=2; i<sayi; i++)
             break;
         }
 if(sayac!=0){
-      alert("Sayı Asal Değil")
+      document.write("Sayı Asal Değil")
       }
 else{
-      alert("Sayı Asal");
+      document.write("Sayı Asal");
     }

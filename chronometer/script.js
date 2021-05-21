@@ -27,7 +27,7 @@ function timerstop(){
 }   
 function timerreset(){
     appendseconds.innerHTML="00:"    
-    appendmiliseconds.innerHTML="00:"  
+    appendmiliseconds.innerHTML="00"  
     clearInterval(myVar);    
     seconds=0; 
     miliseconds=0;

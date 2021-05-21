@@ -16,8 +16,8 @@ for(i=0; i<n; i++){
     }
     }
 if(tekAdet!=0){
-    alert("Tek Sayıların Ortalaması:"+" "+tekToplam/tekAdet);
+    document.write("Tek Sayıların Ortalaması:"+" "+tekToplam/tekAdet+"<br>");
 }
 if(ciftAdet!=0){
-    alert("Çift Sayıların Ortalaması:"+" "+ciftToplam/ciftAdet);
+    document.write("Çift Sayıların Ortalaması:"+" "+ciftToplam/ciftAdet);
 }

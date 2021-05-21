@@ -5,4 +5,4 @@ for(i=0; i<liste.length; i++){
     toplam+=liste[i]
 }
 var adet=liste.length;
-alert(toplam/adet);
+document.write(toplam/adet);

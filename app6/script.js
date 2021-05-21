@@ -10,8 +10,8 @@ function kontrol(str){
  
 var metin=prompt('Metin');
 if(kontrol(metin)==true){
-      alert('ğ karakteri metin içinde var');
+  document.write('ğ karakteri metin içinde var');
     }
 else{
-      alert('ğ karakteri metin içinde yok');
+  document.write('ğ karakteri metin içinde yok');
     }

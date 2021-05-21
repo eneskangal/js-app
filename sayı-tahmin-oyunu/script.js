@@ -16,8 +16,8 @@ while (true){
         continue
     }
     else{
-        alert("sayı:"+" "+sayi);
-        alert("sayac:"+" "+sayac);
+        document.write("sayı:"+" "+sayi);
+        document.write("sayac:"+" "+sayac);
     }
 }
         

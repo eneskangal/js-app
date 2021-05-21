@@ -3,4 +3,4 @@ const reducer=(acu, currentvalue) => acu+currentvalue;
  
 var toplam=liste.reduce(reducer);
 var adet=liste.length;
-alert(toplam/adet);
+document.write(toplam/adet);

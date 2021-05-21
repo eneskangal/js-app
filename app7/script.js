@@ -12,4 +12,4 @@ for(sayi=baslangic; sayi<bitis+1; sayi++){
         sayac=sayac+1;
     }
 }
-alert("ortalama:"+" "+toplam/sayac)
+document.write("ortalama:"+" "+toplam/sayac)

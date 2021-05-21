@@ -5,4 +5,4 @@ for(i=deger; i<deger2; i++){
     var toplam=toplam+i;
     
 }
-alert("toplam"+" "+toplam);
+document.write("toplam:"+" "+toplam);

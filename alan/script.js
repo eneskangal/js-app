@@ -1,6 +1,6 @@
 function dikdortgenAlan(genislik, yukseklik){
     var  alan = genislik * yukseklik;
-    alert ("alan:"+" " +alan)
+    document.write("alan:"+" " +alan)
     return alan
 }
  

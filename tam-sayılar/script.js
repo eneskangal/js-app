@@ -1,10 +1,10 @@
 var input=parseInt(prompt("tam sayı giriniz"));
 if(input==0){
-    alert("sayı negatif veya pozitif değildir")
+    document.write("sayı negatif veya pozitif değildir")
 }
 else if(input>0){
-    alert("sayı pozitif")
+    document.write("sayı pozitif")
 }
 else{
-    alert("yanlış sayı veya negatif")
+    document.write("yanlış sayı veya negatif")
 }

@@ -3,6 +3,6 @@ sayılar.forEach(myFunction);
 
 function myFunction(sayı){
     if(sayı%2==0){
-        alert(sayı);
+        document.write(sayı+"<br>");
     }
 }

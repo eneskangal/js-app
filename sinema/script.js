@@ -12,4 +12,4 @@ if(no=="e"){
 else{
     ücret=ücret;    
 }
-alert("ödeceğiniz ücret:"+" "+ ücret);
+document.write("ödeceğiniz ücret:"+" "+ ücret);

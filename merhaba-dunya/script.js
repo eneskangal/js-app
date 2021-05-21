@@ -1,1 +1,1 @@
-alert("Merhaba Dünya")
+document.write("Merhaba Dünya")

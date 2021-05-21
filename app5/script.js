@@ -5,5 +5,5 @@ for (i=0; i<sayilar.length; i++){
      sayac=sayac+1;
   }  
 }
-alert("döngü bitti")
-alert("sayaç"+" "+ sayac)
+document.write("döngü bitti"+" ")
+document.write("sayaç"+" "+ sayac)

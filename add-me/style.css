@@ -16,3 +16,11 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+ input[type=text]{
+   height: 25px;
+   margin: 15px;  
+ }
+ input[type=button]{
+   width: 150px;
+   height: 30px;
+ }

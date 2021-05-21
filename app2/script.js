@@ -9,5 +9,5 @@ for (i=1; i<=sayi; i++){
             tekToplam+=i
       }
     }
-alert("Tek Sayıların Toplamı:"+" "+ tekToplam);
-alert("Çift Sayıların Toplamı:"+" "+ciftToplam);
+document.write("Tek Sayıların Toplamı:"+" "+ tekToplam+" ");
+document.write("Çift Sayıların Toplamı:"+" "+ciftToplam);

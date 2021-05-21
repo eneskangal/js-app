@@ -1,7 +1,7 @@
 var ehliyet=parseInt(prompt("yaşınız giriniz"));
 if(ehliyet>=18){
-    alert("ehliyet alabilirsiniz")
+    document.write("ehliyet alabilirsiniz")
 }
 else{
-    alert("yanlış değer veya ehliyet alamazsınız")
+    document.write("yanlış değer veya ehliyet alamazsınız")
 }

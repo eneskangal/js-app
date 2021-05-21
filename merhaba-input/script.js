@@ -1,2 +1,2 @@
 var input=prompt("adınızı giriniz");
-alert("merhaba"+" "+input);
+document.write("merhaba"+" "+input);
