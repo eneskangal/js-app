@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;    
+    list-style: none;
+}
+a{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}

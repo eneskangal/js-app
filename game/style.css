@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#content{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
+    cursor: url("hammer.png"), auto;
+}
+.row{
+    font-display: flex;
+}
+.mole{
+    min-height: 50vh;
+    background-image: url("mole.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;    
+    width: 30%;
+}
+.kostebek{    
+    background-image: url("köstebek.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+button{
+    padding: 15px;
+}
