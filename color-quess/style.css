@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mavi{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    color: white;
+}
+#bej{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;    
+    color: black;
+}
+#bej >div{
+    margin: 0 100px;
+}
+#bej >div:nth-child(3){
+    margin: 0 -20px;
+}
+#gri{
+    background-color: gray;
+    min-height: 100vh;
+}
+#wrap{
+    width: 400px;
+    height: 100vh;
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(red, green, blue);
+}
+.active{
+    text-decoration: underline;
+}

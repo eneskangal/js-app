@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "montserrat", sans-serif;        
+}
+#app, #content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+}
+#header{
+    padding: 50px 20px 30px 20px;
+}
+h1{
+    font-size: 50px;    
+}
