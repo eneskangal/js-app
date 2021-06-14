@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mp3player">
+        <div id="button" onclick="enes()">play</div>
+        <div id="duration">00:00</div>
+        <div id="layer" onclick="enes2()">
+            <input type="range" id="points" name="points" min="0" max="100" value="0">
+        </div>
+        <div id="endduration"></div>
+        <div id="ses" onclick="ses()"> ses</div>
+        <audio controls id="myAudio">       
+            <source src="music.mp3" type="audio/mpeg">
+            Tarayıcınız desteklenmiyor.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

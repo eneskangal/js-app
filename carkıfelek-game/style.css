@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#yuvarlak{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 1000px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    position: relative;
+    transition: 2s all;
+}
+#ust-cizgi{
+    width: 10px;
+    height: 995px;
+    background-color: black;
+    margin: auto;
+}
+#orta-cizgi{
+    width: 995px;
+    height: 10px;
+    background-color: black;
+    position: absolute;     
+    top: 50%;    
+}
+#ust-cizgi-135{
+    width: 10px;
+    height: 995px;
+    background-color: black;
+    margin: auto;
+    transform: rotate(315deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+#orta-cizgi-135{
+    width: 10px;
+    height: 995px;
+    background-color: black;
+    margin: auto;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+#orta{
+    position: absolute;
+    top: 50%;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ok{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 50px 0 50px;
+    border-color: #007bff transparent transparent transparent;
+    position: absolute;    
+    top: 40px;
+    left: 46%;         
+}
