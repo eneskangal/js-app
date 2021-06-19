@@ -1,0 +1,1 @@
+alert("sayfa yüklendi")

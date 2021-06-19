@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+    margin: auto;
+}
+#progress{
+    width: 0%;
+    background-color: green;
+    height: 50px;    
+}
+#bilgi{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 16px;
+}
