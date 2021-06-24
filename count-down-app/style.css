@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+button{
+    padding: 0.5srem;
+    width: 300px;   
+    margin:10px 0;
+}
+input{
+    display: block;
+    margin-right: 20px;
+}
