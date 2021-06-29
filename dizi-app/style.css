@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: aqua;
+}
+#content{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.dizi-app{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.dizi-app-image{
+    height: 200px;
+    width: 100%;
+}
+.dizi-app-image >img{
+    height: 200px;
+    width: 100%;
+}
+.dizi-app-yazı{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
