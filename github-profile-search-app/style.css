@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    flex-direction: column;   
+    font-family: "montserrat", sans-serif;
+}
+h1{
+    margin: 20px 0;
+}
+input{
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 120px;
+    padding: 0px 20px;
+}
+button{    
+    height: 30px;
+    border-radius: 120px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+div#search{
+    margin: 0 0 50px 0;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+div.content{
+    width: 300px;
+    height: 300px;
+}
